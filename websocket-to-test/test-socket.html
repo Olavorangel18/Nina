@@ -9,15 +9,9 @@
   <div id="log"></div>
 </body>
 
-
-<!--
-  THE REFERENCE OF WEB SOCKER IMPLEMENTATION
-  
-    https://socketsbay.com/test-websockets
--->
 <script language="javascript" type="text/javascript">
 
-  var wsUri = "wss://socketsbay.com/wss/v2/2/demo/";
+  var wsUri = "ws://localhost:8080";
   var log;
 
   function init() {
@@ -44,7 +38,7 @@
 
   function onMessage(evt) {
     writeLog('<span style="color: blue;">RESPONSE: ' + evt.data + '</span>');
-    websocket.close();
+    // websocket.close();
   }
 
   function onError(evt) {

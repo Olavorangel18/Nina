@@ -1,4 +1,4 @@
-# Frontend test
+# Front-end test
 As part of the interview process, we would like you to build a small Angular application that makes a REST API call to a provided endpoint. This will allow us to evaluate your understanding of Angular, HTTP requests, and working with external APIs.
 
 ## Dependencies
@@ -8,31 +8,38 @@ As part of the interview process, we would like you to build a small Angular app
 |    npm | >= 9.5.1
 |   Angular   | >= 15.1.2 |
 
-## The test
+## Test
 
 1. Clone this repo and create a new Angular project.
 
-2. Create a new component that will display all the complaints received from the complaints server located at: ``complaints-server`` following REST API endpoint: https://www.google.com
+2. Create a new component that will display all the data from a server GET request, the complaints server located at: ``complaints-server`. In order to make the server available, run the following commands in your system:
+
+    ```sh
+    cd complaints-server
+    npm run start
+    ```
+
+    The data provider should now be available at: http://localhost:3000/complaints
 
 
-```typescript
-// In order to make the request you got to run the complaints-server app at
+    ```typescript
+    // Complaint Object description
 
+    {
+      _id: string;
+      place: string;
+      at_moment: boolean;
+      datetime: Date;
+      modified_at: Date;
+      created_at: Date;
+      description: string;
+      situation: string[];
+      type: string[];
+    }
 
-// Complaint Object description
+    ```
 
-{
-  _id: string;
-  place: string;
-  at_moment: boolean;
-  datetime: Date;
-  modified_at: Date;
-  created_at: Date;
-  description: string;
-  situation: string[];
-  type: string[];
-}
-```
+    To query the data, add the filter condition as a query parameter to the request. For example, to retrieve all the **sorted** by datetime occurrences that happened in **parks**, we can make a GET request using the following URL: http://localhost:3000/complaints?place=park&_sort=datetime.
 
 
 3. Display the complaints data in your component in a visually appealing and user-friendly manner, making sure your application is responsive and can handle different screen sizes.
@@ -41,7 +48,15 @@ As part of the interview process, we would like you to build a small Angular app
 
 5. Implement a filtering feature that allows the user to filter the complaints by different attributes (e.g. complaint type, datetime, etc.). The filtering feature should update the list of complaints in real-time as the user interacts with the filters.
 
-6. Implement a WebSocket that receives real-time notifications and displays them to the user in a visually appealing and user-friendly manner. The WebSocket to test is located in dir ``websocket-to-test``.
+6. You must now connect to a WebSocket that sends real-time notifications and displays them to the user in a visually appealing and user-friendly manner. In order to make the websocket available, run the following commands in your system:
+    ```sh
+    cd websocket-to-test
+    npm run start
+    ```
+
+    The socket should now be available to connect at: localhost:8080. You can test it by opening the **test-socket.html** and checking the visual response.
+
+    Your application should connect to the websocket and every user connected to it will receive a notification every 5 minutes. Display the notification to the user of your application.
 
 When you have completed the test, please provide us with the following:
 
