@@ -1,5 +1,7 @@
-# Front-end test
+# Front-end test - deadline 13/03 at 13h
 As part of the interview process, we would like you to build a small Angular application that makes a REST API call to a provided endpoint. This will allow us to evaluate your understanding of Angular, HTTP requests, and working with external APIs.
+
+**You should send the repository link to team@ninamob.com before the deadline, even if it's incomplete.**
 
 ## Dependencies
 |  Package   |  Version  |
