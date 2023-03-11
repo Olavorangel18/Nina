@@ -1,5 +1,5 @@
 package-lock.json
-DS_Store
+
 # Logs
 logs
 *.log
@@ -108,7 +108,7 @@ dist
 
 # Docusaurus cache and generated files
 .docusaurus
-
+DS_Store
 # Serverless directories
 .serverless/
 
