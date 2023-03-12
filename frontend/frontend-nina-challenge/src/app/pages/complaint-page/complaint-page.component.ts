@@ -13,6 +13,9 @@ import { distinctUntilChanged } from 'rxjs';
   styleUrls: ['./complaint-page.component.scss']
 })
 export class ComplaintPageComponent {
+  
+  //Atributos de Inicialização do componente
+
   listaComplaints: Complaints[] = [];
   listaComplaintsUnsolved: Complaints[] = [];
   listaComplaintsInProgress: Complaints[] = [];
@@ -26,19 +29,13 @@ export class ComplaintPageComponent {
 
   ngOnInit() {
     this.getComplaints();
-    webSocket('ws://localhost:8080').subscribe(
-      (message) => {
-        this.openSnackBar(`Received message:${JSON.stringify(message)}`,'');
-      },
-      (error) => {
-        this.openSnackBar("Erro de conexão com o websocket",'');
-      },
-      () => {
-        console.log('WebSocket connection closed.');
-      }
-    );
-
+    this.connectWebsocket();
   }
+  /*------------------------------------------------------*/
+   
+  //               Requisições para o backend
+
+  /*------------------------------------------------------*/
 
   getComplaints() {
     this.complaintsService.getComplaints().subscribe((response: Complaints[]) => {
@@ -96,6 +93,12 @@ export class ComplaintPageComponent {
     });
   }
 
+  /*------------------------------------------------------*/
+   
+  //           Controle da Snackbar e Dialog
+
+  /*------------------------------------------------------*/
+
   openSnackBar(message: string, action: string) {
     this._snackBar.open(message, action, {
       duration: 5000,
@@ -107,6 +110,28 @@ export class ComplaintPageComponent {
       data: {filters: this.filters,
              getComplaintsFilter: this.getComplaintsFilter.bind(this)}});
     }
+
+  
+
+  /*------------------------------------------------------*/
+   
+  //              Conexão com o websocket
+
+  /*------------------------------------------------------*/
+  
+  connectWebsocket(){
+    webSocket('ws://localhost:8080').subscribe(
+      (message) => {
+        this.openSnackBar(`Received message:${JSON.stringify(message)}`,'');
+      },
+      (error) => {
+        this.openSnackBar("Erro de conexão com o websocket",'');
+      },
+      () => {
+        console.log('WebSocket connection closed.');
+      }
+    );
+  }
 }
 
 @Component({
@@ -142,7 +167,7 @@ export class DialogContentFilter {
   controlFilters(control: FormControl){
       control.valueChanges
         .pipe(
-          distinctUntilChanged(), // only emit when the value changes
+          distinctUntilChanged()
         )
         .subscribe(value => {
           this.filtrar()
