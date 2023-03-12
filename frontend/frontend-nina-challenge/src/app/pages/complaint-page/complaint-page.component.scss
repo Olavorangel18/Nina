@@ -22,4 +22,27 @@
         justify-content: center
     }
 
+    .filtro-response{
+        display:none;
+    }
+
+}
+@media only screen and (max-width: 768px){
+    .filtro-response{
+        width: 56%; 
+        display: flex !important; 
+        justify-content: flex-end;
+        margin-bottom: 20px;
+    }
+    .filtro{
+        display: none !important;
+    }
+
+    .app-container{
+        flex-direction: column !important;
+    }
+
+    .app-content{
+        width: 100% !important;
+    }
 }
