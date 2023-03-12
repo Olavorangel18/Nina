@@ -7,7 +7,9 @@
               [color]="'#ED6161'"
               [boxShadow]="'inset 0px 4px 0px 0px #ED6161'"
             ></app-card-header>
-            <app-list-complaints></app-list-complaints>
+            <app-list-complaints
+            [listaComplaints]="listaComplaintsUnsolved"
+            ></app-list-complaints>
         </div>
 
         <div style="display: flex; flex-direction: column;">
@@ -17,7 +19,9 @@
             [color]="'#1594E2'"
             [boxShadow]="'inset 0px 4px 0px #1594E2'"
         ></app-card-header>
-          <app-list-complaints></app-list-complaints>
+          <app-list-complaints
+          [listaComplaints]="listaComplaintsInProgress"
+          ></app-list-complaints>
       </div>
 
       <div style="display: flex; flex-direction: column;">
@@ -27,7 +31,9 @@
           [color]="'#05CE62'"
           [boxShadow]="'inset 0px 4px 0px #05CE62'"
         ></app-card-header>
-        <app-list-complaints></app-list-complaints>
+        <app-list-complaints
+        [listaComplaints]="listaComplaintsSolved"
+        ></app-list-complaints>
     </div>
 
      </div>
