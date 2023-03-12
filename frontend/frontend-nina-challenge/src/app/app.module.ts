@@ -9,6 +9,9 @@ import { CardHeaderComponent } from './components/card-header/card-header.compon
 import { ListComplaintsComponent } from './components/list-complaints/list-complaints.component';
 import { ComplaintsComponent } from './components/complaints/complaints.component';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import { BrokerBackendService } from './services/brocker-backend/brocker-backend.service';
+import { HttpClientModule } from '@angular/common/http';
+import { ComplaintsService } from './services/complaints/complaints.service';
 
 @NgModule({
   declarations: [
@@ -22,9 +25,10 @@ import {MatSlideToggleModule} from '@angular/material/slide-toggle';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [BrokerBackendService, ComplaintsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

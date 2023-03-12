@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { BrockerBackendService } from './brocker-backend.service';
+import { BrokerBackendService } from './brocker-backend.service';
 
 describe('BrockerBackendService', () => {
-  let service: BrockerBackendService;
+  let service: BrokerBackendService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(BrockerBackendService);
+    service = TestBed.inject(BrokerBackendService);
   });
 
   it('should be created', () => {
