@@ -8,6 +8,7 @@ import { ComplaintPageComponent } from './pages/complaint-page/complaint-page.co
 import { CardHeaderComponent } from './components/card-header/card-header.component';
 import { ListComplaintsComponent } from './components/list-complaints/list-complaints.component';
 import { ComplaintsComponent } from './components/complaints/complaints.component';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ComplaintsComponent } from './components/complaints/complaints.componen
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatSlideToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
