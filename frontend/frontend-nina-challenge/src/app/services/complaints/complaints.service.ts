@@ -8,7 +8,7 @@ import { BrokerBackendService } from '../brocker-backend/brocker-backend.service
 })
 export class ComplaintsService {
 
-  endpointRegister = '/complaints'
+  endpointComplains = '/complaints'
 
   constructor(private brokerBackend: BrokerBackendService
     ,private http: HttpClient) { 
@@ -17,9 +17,19 @@ export class ComplaintsService {
   getComplaints(): Observable<any> {
     return this.brokerBackend
         .connectInBackend(
-          this.endpointRegister,
+          this.endpointComplains,
           'GET',
           undefined,
+          this.getSimpleHeader()
+        );
+  }
+
+  getComplaintsFilters(filters: String[]): Observable<any> {
+    return this.brokerBackend
+        .connectInBackend(
+          this.increaseEndpointComplains(filters),
+          'GET',
+          filters,
           this.getSimpleHeader()
         );
   }
@@ -29,4 +39,14 @@ export class ComplaintsService {
       'Content-Type': 'application/json'
     });
   }
+
+  increaseEndpointComplains(filters:String[]) {
+    this.endpointComplains += '?';
+    filters.forEach(filter => {
+      this.endpointComplains += `${filter}&`;
+    });
+    return this.endpointComplains;
+  }
+
+
 }

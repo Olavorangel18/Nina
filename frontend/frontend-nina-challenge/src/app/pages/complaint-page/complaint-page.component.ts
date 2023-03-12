@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { Complaints } from 'src/app/models/complaint/complaints.model';
 import { ComplaintsService } from 'src/app/services/complaints/complaints.service';
+import {MatSnackBar} from '@angular/material/snack-bar';
+
 
 @Component({
   selector: 'app-complaint-page',
@@ -13,7 +15,8 @@ export class ComplaintPageComponent {
   listaComplaintsInProgress: Complaints[] = [];
   listaComplaintsSolved: Complaints[] = [];
 
-  constructor(private complaintsService: ComplaintsService) {
+  constructor(private complaintsService: ComplaintsService,
+              private _snackBar: MatSnackBar) {
     
   }
 
@@ -42,11 +45,15 @@ export class ComplaintPageComponent {
       this.listaComplaintsSolved = this.listaComplaints.filter(complaint => complaint.situation[0] === 'solved');
       
     }, error => {
-      console.log(error);
+      this.openSnackBar("Ocorreu um problema com a conexão do servidor", '');
     });
   }
 
-
+  openSnackBar(message: string, action: string) {
+    this._snackBar.open(message, action, {
+      duration: 3000,
+    });
+  }
 
 
 }
