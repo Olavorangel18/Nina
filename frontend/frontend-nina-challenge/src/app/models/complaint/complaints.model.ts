@@ -1,7 +1,7 @@
 export class Complaints {
     id:string
     place:string
-    at_moment:string
+    at_moment:boolean
     datetime:string
     modified_at:string
     created_at:string
@@ -9,7 +9,7 @@ export class Complaints {
     situation:string[]
     type:string
 
-    constructor(id:string, place:string, at_moment:string, datetime:string, modified_at:string, created_at:string, description:string, situation:string[], type:string){
+    constructor(id:string, place:string, at_moment:boolean, datetime:string, modified_at:string, created_at:string, description:string, situation:string[], type:string){
         this.id = id
         this.place = place
         this.at_moment = at_moment
