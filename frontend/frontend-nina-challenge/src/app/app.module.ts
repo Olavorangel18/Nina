@@ -13,6 +13,12 @@ import { HttpClientModule } from '@angular/common/http';
 import { ComplaintsService } from './services/complaints/complaints.service';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatDialogModule} from '@angular/material/dialog';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import { DialogContentFilter } from './pages/complaint-page/complaint-page.component';
+import {MatRadioModule} from '@angular/material/radio';
+import {MatSelectModule} from '@angular/material/select';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +26,8 @@ import {MatDialogModule} from '@angular/material/dialog';
     ComplaintPageComponent,
     CardHeaderComponent,
     ListComplaintsComponent,
-    ComplaintsComponent
+    ComplaintsComponent,
+    DialogContentFilter
   ],
   imports: [
     BrowserModule,
@@ -29,7 +36,12 @@ import {MatDialogModule} from '@angular/material/dialog';
     MatSlideToggleModule,
     HttpClientModule,
     MatSnackBarModule,
-    MatDialogModule
+    MatDialogModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatRadioModule,
+    MatSelectModule,
+    ReactiveFormsModule
   ],
   providers: [BrokerBackendService, ComplaintsService],
   bootstrap: [AppComponent]
