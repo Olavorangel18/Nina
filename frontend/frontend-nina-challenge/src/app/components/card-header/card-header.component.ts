@@ -7,7 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class CardHeaderComponent {
   @Input() type: string | undefined;
-  @Input() lenght: string | undefined;
+  @Input() lenght: Number | undefined;
   @Input() color: string | undefined;
   @Input() boxShadow: string | undefined;
 }
