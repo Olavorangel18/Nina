@@ -41,7 +41,7 @@ export class ComplaintsService {
   }
 
   increaseEndpointComplains(filters:String[]) {
-    this.endpointComplains += '?';
+    this.endpointComplains = '/complaints?'
     filters.forEach(filter => {
       this.endpointComplains += `${filter}&`;
     });
