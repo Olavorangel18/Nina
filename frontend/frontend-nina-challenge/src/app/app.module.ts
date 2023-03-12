@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -12,6 +11,8 @@ import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import { BrokerBackendService } from './services/brocker-backend/brocker-backend.service';
 import { HttpClientModule } from '@angular/common/http';
 import { ComplaintsService } from './services/complaints/complaints.service';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import {MatDialogModule} from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,9 @@ import { ComplaintsService } from './services/complaints/complaints.service';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSlideToggleModule,
-    HttpClientModule
+    HttpClientModule,
+    MatSnackBarModule,
+    MatDialogModule
   ],
   providers: [BrokerBackendService, ComplaintsService],
   bootstrap: [AppComponent]

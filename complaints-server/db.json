@@ -1,27 +1,27 @@
 {
   "complaints": [
     {
-      "_id": "fd50bd52-b008-4c8a-9256-e4a6112538b0",
+      "_id": "bd54b597-3ab8-4ae1-b71c-b31ca96621df",
       "place": "beach",
       "at_moment": false,
-      "datetime": "2020-08-21T18:35:27.387Z",
-      "modified_at": "2020-09-30T12:00:27.094Z",
-      "created_at": "2021-12-22T08:21:22.779Z",
+      "datetime": "2022-08-15T15:36:06.892Z",
+      "modified_at": "2022-04-16T21:19:17.535Z",
+      "created_at": "2022-03-01T11:31:09.635Z",
       "description": "Complaint 1",
       "situation": [
-        "solved"
+        "unsolved"
       ],
       "type": [
-        "noise"
+        "infrastructure"
       ]
     },
     {
-      "_id": "884785dc-6b97-4b59-9499-4dd9bd6fa004",
-      "place": "restaurant",
+      "_id": "28ff60de-4378-4500-8fbf-382359cd1385",
+      "place": "park",
       "at_moment": true,
-      "datetime": "2020-08-09T22:38:31.998Z",
-      "modified_at": "2020-08-07T06:09:58.737Z",
-      "created_at": "2022-06-22T22:07:50.442Z",
+      "datetime": "2020-08-21T13:22:30.941Z",
+      "modified_at": "2023-01-25T13:51:15.388Z",
+      "created_at": "2021-08-10T05:39:46.295Z",
       "description": "Complaint 2",
       "situation": [
         "unsolved"
@@ -31,72 +31,72 @@
       ]
     },
     {
-      "_id": "0563bf9f-0fee-47d0-952f-0a1e85cb7947",
-      "place": "restaurant",
+      "_id": "df3383ef-8135-4101-9a73-1ac1e0f7ae11",
+      "place": "park",
       "at_moment": true,
-      "datetime": "2021-07-31T00:15:26.508Z",
-      "modified_at": "2021-02-23T08:03:25.297Z",
-      "created_at": "2022-02-27T12:27:06.240Z",
+      "datetime": "2021-01-09T20:10:30.074Z",
+      "modified_at": "2021-02-17T20:03:14.848Z",
+      "created_at": "2020-02-19T10:28:05.042Z",
       "description": "Complaint 3",
       "situation": [
         "solved"
       ],
       "type": [
-        "noise"
+        "security"
       ]
     },
     {
-      "_id": "301145c6-eb8a-464c-9d0e-0885f4b4c142",
-      "place": "beach",
-      "at_moment": false,
-      "datetime": "2020-11-23T00:26:31.752Z",
-      "modified_at": "2021-03-21T10:07:48.612Z",
-      "created_at": "2022-02-20T02:53:41.647Z",
+      "_id": "90ebc872-e1d5-4069-82e3-c3083bc33acb",
+      "place": "shopping mall",
+      "at_moment": true,
+      "datetime": "2020-06-01T17:36:55.074Z",
+      "modified_at": "2021-12-02T06:18:53.845Z",
+      "created_at": "2021-05-02T07:34:07.466Z",
       "description": "Complaint 4",
       "situation": [
-        "in progress"
+        "solved"
       ],
       "type": [
         "other"
       ]
     },
     {
-      "_id": "e8b61eb1-41d5-4ded-902f-10da4640cac8",
-      "place": "park",
+      "_id": "f5da4594-1acd-4497-8443-3733f9bb84a3",
+      "place": "beach",
       "at_moment": true,
-      "datetime": "2020-08-28T18:39:35.238Z",
-      "modified_at": "2020-11-01T07:48:18.885Z",
-      "created_at": "2021-06-24T00:47:29.976Z",
+      "datetime": "2020-10-06T20:57:36.107Z",
+      "modified_at": "2022-07-29T08:20:48.028Z",
+      "created_at": "2022-04-22T06:16:10.532Z",
       "description": "Complaint 5",
       "situation": [
-        "unsolved"
+        "solved"
       ],
       "type": [
         "pollution"
       ]
     },
     {
-      "_id": "96d5db35-b8db-47c5-b27d-94e842b6135e",
-      "place": "restaurant",
-      "at_moment": false,
-      "datetime": "2020-02-11T00:40:30.836Z",
-      "modified_at": "2021-08-26T10:38:16.376Z",
-      "created_at": "2021-04-25T11:31:01.814Z",
+      "_id": "a5e9916e-4392-4cb5-8c57-9fffc2ba1987",
+      "place": "beach",
+      "at_moment": true,
+      "datetime": "2021-02-10T11:32:15.285Z",
+      "modified_at": "2021-01-13T07:58:31.619Z",
+      "created_at": "2022-03-02T17:34:40.303Z",
       "description": "Complaint 6",
       "situation": [
         "solved"
       ],
       "type": [
-        "noise"
+        "pollution"
       ]
     },
     {
-      "_id": "6f2b3b6c-c1da-40ca-92b1-542b10657eaf",
+      "_id": "61681c8d-12c5-4d0f-9583-1014f21bc224",
       "place": "beach",
-      "at_moment": false,
-      "datetime": "2020-07-13T13:13:09.633Z",
-      "modified_at": "2020-11-30T12:09:29.399Z",
-      "created_at": "2021-04-08T09:06:00.441Z",
+      "at_moment": true,
+      "datetime": "2023-02-14T23:05:03.968Z",
+      "modified_at": "2020-04-17T05:11:28.044Z",
+      "created_at": "2021-12-26T07:23:57.487Z",
       "description": "Complaint 7",
       "situation": [
         "in progress"
@@ -106,42 +106,42 @@
       ]
     },
     {
-      "_id": "c783a881-ee34-4a64-a3eb-8a80c1334782",
-      "place": "beach",
-      "at_moment": false,
-      "datetime": "2022-09-24T23:22:53.422Z",
-      "modified_at": "2022-02-19T12:47:41.335Z",
-      "created_at": "2021-05-09T21:53:42.308Z",
+      "_id": "0469ef69-9923-4974-a5c5-247776cd5467",
+      "place": "shopping mall",
+      "at_moment": true,
+      "datetime": "2020-04-05T13:24:23.739Z",
+      "modified_at": "2021-12-28T12:35:53.636Z",
+      "created_at": "2021-10-02T04:21:15.766Z",
       "description": "Complaint 8",
       "situation": [
-        "unsolved"
+        "solved"
       ],
       "type": [
-        "other"
+        "security"
       ]
     },
     {
-      "_id": "0a3760d3-b9a6-4480-98c6-49309b4ac662",
-      "place": "movie theater",
-      "at_moment": false,
-      "datetime": "2022-07-18T16:27:21.743Z",
-      "modified_at": "2022-09-15T04:37:26.813Z",
-      "created_at": "2020-08-19T08:47:21.662Z",
+      "_id": "64bbc558-0332-4037-8d28-f260c24037f8",
+      "place": "beach",
+      "at_moment": true,
+      "datetime": "2023-03-08T09:07:39.561Z",
+      "modified_at": "2022-03-05T18:20:20.224Z",
+      "created_at": "2020-07-30T17:43:39.154Z",
       "description": "Complaint 9",
       "situation": [
-        "in progress"
+        "solved"
       ],
       "type": [
-        "other"
+        "infrastructure"
       ]
     },
     {
-      "_id": "898c098e-1064-423d-8fd6-22f14d055499",
-      "place": "shopping mall",
+      "_id": "dd0027be-8d2b-45de-b828-70bb48e3cabc",
+      "place": "beach",
       "at_moment": false,
-      "datetime": "2021-10-29T09:14:10.890Z",
-      "modified_at": "2020-01-22T23:19:30.802Z",
-      "created_at": "2022-05-07T06:10:37.192Z",
+      "datetime": "2021-07-28T14:03:01.797Z",
+      "modified_at": "2020-09-28T04:20:22.855Z",
+      "created_at": "2022-03-10T05:52:20.288Z",
       "description": "Complaint 10",
       "situation": [
         "solved"
@@ -151,283 +151,118 @@
       ]
     },
     {
-      "_id": "ed997997-73ad-4c58-aebe-5fbb416e88d4",
-      "place": "shopping mall",
-      "at_moment": true,
-      "datetime": "2021-04-20T01:31:01.388Z",
-      "modified_at": "2021-07-12T03:38:08.679Z",
-      "created_at": "2020-02-10T12:48:13.984Z",
+      "_id": "80082660-61aa-4ac4-8015-1d9f71de2f67",
+      "place": "beach",
+      "at_moment": false,
+      "datetime": "2022-01-18T08:59:57.814Z",
+      "modified_at": "2020-10-18T05:35:44.180Z",
+      "created_at": "2023-01-25T13:14:08.244Z",
       "description": "Complaint 11",
       "situation": [
-        "solved"
+        "in progress"
+      ],
+      "type": [
+        "security"
+      ]
+    },
+    {
+      "_id": "3b4d0e23-be27-4088-b896-9d29dda51ce3",
+      "place": "shopping mall",
+      "at_moment": true,
+      "datetime": "2022-06-11T21:23:54.610Z",
+      "modified_at": "2021-05-11T12:04:19.866Z",
+      "created_at": "2020-10-23T00:14:54.213Z",
+      "description": "Complaint 12",
+      "situation": [
+        "unsolved"
       ],
       "type": [
         "other"
       ]
     },
     {
-      "_id": "e78d9846-767a-4650-980b-5e36a55b5a43",
-      "place": "park",
+      "_id": "bf7bc3be-cb14-4929-bf52-20e66241fd22",
+      "place": "beach",
       "at_moment": true,
-      "datetime": "2023-01-20T09:31:44.337Z",
-      "modified_at": "2021-07-22T17:47:34.620Z",
-      "created_at": "2020-06-02T14:02:02.064Z",
-      "description": "Complaint 12",
+      "datetime": "2021-02-27T19:05:32.999Z",
+      "modified_at": "2021-03-12T20:08:43.478Z",
+      "created_at": "2021-05-11T21:50:00.916Z",
+      "description": "Complaint 13",
       "situation": [
-        "in progress"
+        "solved"
       ],
       "type": [
         "pollution"
       ]
     },
     {
-      "_id": "94ed1409-27d9-44f6-a19c-fea5d4a7221b",
-      "place": "beach",
-      "at_moment": true,
-      "datetime": "2022-02-20T06:09:04.406Z",
-      "modified_at": "2021-02-25T02:45:26.471Z",
-      "created_at": "2022-08-22T16:27:50.551Z",
-      "description": "Complaint 13",
-      "situation": [
-        "in progress"
-      ],
-      "type": [
-        "infrastructure"
-      ]
-    },
-    {
-      "_id": "e08d9530-420d-4dbc-a222-650b177ca132",
-      "place": "beach",
+      "_id": "e073082e-01e4-4e50-9320-eb8f763cf040",
+      "place": "movie theater",
       "at_moment": false,
-      "datetime": "2022-08-18T23:22:50.905Z",
-      "modified_at": "2022-07-15T13:32:23.527Z",
-      "created_at": "2022-03-24T14:30:14.009Z",
+      "datetime": "2021-10-27T09:12:57.379Z",
+      "modified_at": "2022-01-12T15:39:39.035Z",
+      "created_at": "2022-05-23T07:25:06.559Z",
       "description": "Complaint 14",
       "situation": [
-        "solved"
+        "unsolved"
       ],
       "type": [
-        "other"
+        "pollution"
       ]
     },
     {
-      "_id": "1e753b74-a0a7-421d-b314-4162cb2ac9fa",
-      "place": "park",
+      "_id": "3c81fe65-e32d-4b9e-8cf7-1fb3826d1974",
+      "place": "beach",
       "at_moment": true,
-      "datetime": "2022-02-20T14:10:39.042Z",
-      "modified_at": "2022-08-16T01:16:01.411Z",
-      "created_at": "2023-01-01T10:12:19.152Z",
+      "datetime": "2021-05-12T14:55:29.679Z",
+      "modified_at": "2021-02-24T19:58:42.797Z",
+      "created_at": "2022-07-21T20:25:37.608Z",
       "description": "Complaint 15",
       "situation": [
         "unsolved"
       ],
       "type": [
-        "security"
+        "infrastructure"
       ]
     },
     {
-      "_id": "61478b07-2042-4fff-a1f4-dd7d8eb71f9a",
-      "place": "shopping mall",
-      "at_moment": false,
-      "datetime": "2020-08-23T03:30:19.123Z",
-      "modified_at": "2021-06-03T04:05:02.082Z",
-      "created_at": "2022-12-11T06:40:42.049Z",
+      "_id": "09615b68-ee6d-4429-9d7c-e4180b36c19c",
+      "place": "beach",
+      "at_moment": true,
+      "datetime": "2022-04-16T17:10:53.572Z",
+      "modified_at": "2023-01-26T10:11:22.646Z",
+      "created_at": "2022-08-04T02:51:36.814Z",
       "description": "Complaint 16",
       "situation": [
-        "solved"
-      ],
-      "type": [
-        "infrastructure"
-      ]
-    },
-    {
-      "_id": "d91ffec0-d15a-4da0-ba28-94ed54b5bb1d",
-      "place": "park",
-      "at_moment": true,
-      "datetime": "2020-08-31T13:08:19.855Z",
-      "modified_at": "2020-06-12T18:48:15.753Z",
-      "created_at": "2022-06-10T05:43:10.924Z",
-      "description": "Complaint 17",
-      "situation": [
         "unsolved"
-      ],
-      "type": [
-        "security"
-      ]
-    },
-    {
-      "_id": "5847f549-0269-4303-9187-844c0f0dd42f",
-      "place": "movie theater",
-      "at_moment": false,
-      "datetime": "2021-12-21T17:37:23.601Z",
-      "modified_at": "2022-03-18T16:14:21.400Z",
-      "created_at": "2022-08-14T14:01:37.355Z",
-      "description": "Complaint 18",
-      "situation": [
-        "in progress"
-      ],
-      "type": [
-        "pollution"
-      ]
-    },
-    {
-      "_id": "ad9ccafb-21e6-46a4-a771-1daff60da1f6",
-      "place": "beach",
-      "at_moment": true,
-      "datetime": "2021-10-17T14:50:29.487Z",
-      "modified_at": "2021-10-20T07:10:58.864Z",
-      "created_at": "2020-04-29T07:25:52.204Z",
-      "description": "Complaint 19",
-      "situation": [
-        "in progress"
-      ],
-      "type": [
-        "security"
-      ]
-    },
-    {
-      "_id": "6227f9fd-79b8-48ba-b0a7-48635e861328",
-      "place": "restaurant",
-      "at_moment": true,
-      "datetime": "2022-11-19T11:31:20.012Z",
-      "modified_at": "2020-07-24T17:19:51.530Z",
-      "created_at": "2022-04-19T05:18:46.997Z",
-      "description": "Complaint 20",
-      "situation": [
-        "unsolved"
-      ],
-      "type": [
-        "other"
-      ]
-    },
-    {
-      "_id": "6df5b3c3-fb2c-432a-bb09-47e223e29b66",
-      "place": "shopping mall",
-      "at_moment": true,
-      "datetime": "2022-11-17T10:46:07.750Z",
-      "modified_at": "2020-05-02T21:17:03.899Z",
-      "created_at": "2021-02-28T12:06:24.263Z",
-      "description": "Complaint 21",
-      "situation": [
-        "in progress"
-      ],
-      "type": [
-        "infrastructure"
-      ]
-    },
-    {
-      "_id": "a1004300-4d66-4435-af32-8f7e51acf812",
-      "place": "restaurant",
-      "at_moment": false,
-      "datetime": "2020-09-07T17:56:28.958Z",
-      "modified_at": "2020-04-26T02:31:54.374Z",
-      "created_at": "2022-05-19T02:16:40.417Z",
-      "description": "Complaint 22",
-      "situation": [
-        "in progress"
-      ],
-      "type": [
-        "other"
-      ]
-    },
-    {
-      "_id": "67552983-0cf2-487e-9e75-fa181641a4e4",
-      "place": "restaurant",
-      "at_moment": true,
-      "datetime": "2021-11-05T04:17:37.950Z",
-      "modified_at": "2023-01-12T18:47:19.705Z",
-      "created_at": "2020-06-06T23:32:56.857Z",
-      "description": "Complaint 23",
-      "situation": [
-        "in progress"
-      ],
-      "type": [
-        "other"
-      ]
-    },
-    {
-      "_id": "348fb772-e7d0-4b4b-a1bb-1712a33d6160",
-      "place": "beach",
-      "at_moment": true,
-      "datetime": "2022-01-26T20:34:22.948Z",
-      "modified_at": "2020-02-21T14:57:46.603Z",
-      "created_at": "2022-12-11T03:17:17.989Z",
-      "description": "Complaint 24",
-      "situation": [
-        "in progress"
-      ],
-      "type": [
-        "pollution"
-      ]
-    },
-    {
-      "_id": "421676dd-28f3-427c-a51f-acfcd8fc2de2",
-      "place": "beach",
-      "at_moment": false,
-      "datetime": "2021-08-31T23:40:36.612Z",
-      "modified_at": "2021-07-28T03:29:40.171Z",
-      "created_at": "2023-01-27T17:57:47.756Z",
-      "description": "Complaint 25",
-      "situation": [
-        "in progress"
-      ],
-      "type": [
-        "pollution"
-      ]
-    },
-    {
-      "_id": "a22c9e52-34ec-4821-9e83-ddc9dd23651d",
-      "place": "beach",
-      "at_moment": false,
-      "datetime": "2022-04-11T04:57:54.611Z",
-      "modified_at": "2023-03-09T01:48:49.565Z",
-      "created_at": "2020-06-09T20:50:51.723Z",
-      "description": "Complaint 26",
-      "situation": [
-        "unsolved"
-      ],
-      "type": [
-        "pollution"
-      ]
-    },
-    {
-      "_id": "f08f04af-feb8-475c-83e7-c5a7f2a1c9b7",
-      "place": "shopping mall",
-      "at_moment": false,
-      "datetime": "2020-01-29T21:48:45.504Z",
-      "modified_at": "2022-09-21T04:59:57.423Z",
-      "created_at": "2021-08-05T03:14:26.000Z",
-      "description": "Complaint 27",
-      "situation": [
-        "unsolved"
-      ],
-      "type": [
-        "infrastructure"
-      ]
-    },
-    {
-      "_id": "ccdfe57f-ebff-45c5-84e8-e78eefe28882",
-      "place": "movie theater",
-      "at_moment": false,
-      "datetime": "2020-01-24T18:17:36.879Z",
-      "modified_at": "2020-10-14T18:34:48.432Z",
-      "created_at": "2020-06-03T10:13:11.049Z",
-      "description": "Complaint 28",
-      "situation": [
-        "in progress"
       ],
       "type": [
         "noise"
       ]
     },
     {
-      "_id": "e97073ca-c74f-4ff3-ad03-9d36f4e29f32",
-      "place": "beach",
+      "_id": "1d167f1a-9eee-493f-991c-a6b95817ee2a",
+      "place": "shopping mall",
+      "at_moment": false,
+      "datetime": "2020-12-08T19:49:09.039Z",
+      "modified_at": "2021-11-03T03:08:29.614Z",
+      "created_at": "2022-03-28T04:09:01.722Z",
+      "description": "Complaint 17",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "other"
+      ]
+    },
+    {
+      "_id": "b0d0cdc2-aa13-40d9-a1a2-2b1e1af5b603",
+      "place": "restaurant",
       "at_moment": true,
-      "datetime": "2021-12-13T20:44:16.000Z",
-      "modified_at": "2021-04-05T01:21:33.351Z",
-      "created_at": "2022-11-14T04:02:40.966Z",
-      "description": "Complaint 29",
+      "datetime": "2021-10-03T05:01:04.452Z",
+      "modified_at": "2021-02-19T15:14:26.188Z",
+      "created_at": "2020-04-26T20:30:32.090Z",
+      "description": "Complaint 18",
       "situation": [
         "solved"
       ],
@@ -436,73 +271,88 @@
       ]
     },
     {
-      "_id": "cc56584f-bc25-4abc-9e86-407642597568",
+      "_id": "b32e4e07-011b-4b70-b80d-085c6e11a0c2",
       "place": "beach",
-      "at_moment": true,
-      "datetime": "2021-05-26T00:58:57.112Z",
-      "modified_at": "2020-12-05T22:01:43.805Z",
-      "created_at": "2022-04-02T12:29:19.129Z",
-      "description": "Complaint 30",
+      "at_moment": false,
+      "datetime": "2022-07-08T09:52:49.379Z",
+      "modified_at": "2021-01-01T10:03:52.654Z",
+      "created_at": "2022-09-04T13:51:08.937Z",
+      "description": "Complaint 19",
       "situation": [
-        "in progress"
-      ],
-      "type": [
-        "security"
-      ]
-    },
-    {
-      "_id": "3592c10c-caad-4e52-b39b-15d3290b958b",
-      "place": "beach",
-      "at_moment": true,
-      "datetime": "2021-01-14T06:55:56.775Z",
-      "modified_at": "2023-02-05T00:17:37.580Z",
-      "created_at": "2021-08-15T20:10:34.988Z",
-      "description": "Complaint 31",
-      "situation": [
-        "in progress"
-      ],
-      "type": [
-        "security"
-      ]
-    },
-    {
-      "_id": "c5c48e38-a27b-4692-8fe1-2327264e3a6a",
-      "place": "beach",
-      "at_moment": true,
-      "datetime": "2021-12-31T23:09:43.508Z",
-      "modified_at": "2021-07-02T13:34:36.500Z",
-      "created_at": "2021-09-02T20:36:19.704Z",
-      "description": "Complaint 32",
-      "situation": [
-        "in progress"
-      ],
-      "type": [
-        "security"
-      ]
-    },
-    {
-      "_id": "1b2ac387-33c9-4ce8-bbc5-004c02f50367",
-      "place": "park",
-      "at_moment": true,
-      "datetime": "2022-03-07T02:54:00.381Z",
-      "modified_at": "2020-12-10T11:55:21.130Z",
-      "created_at": "2021-06-06T21:40:47.133Z",
-      "description": "Complaint 33",
-      "situation": [
-        "in progress"
+        "solved"
       ],
       "type": [
         "other"
       ]
     },
     {
-      "_id": "ea895fde-2b52-4b84-8cc3-a92175de1238",
+      "_id": "6ca9e3b5-d809-4659-adf7-8d32f6bcca92",
       "place": "movie theater",
       "at_moment": true,
-      "datetime": "2022-09-14T00:38:59.157Z",
-      "modified_at": "2022-10-24T18:55:47.557Z",
-      "created_at": "2020-02-28T06:45:31.141Z",
-      "description": "Complaint 34",
+      "datetime": "2022-12-20T04:12:55.125Z",
+      "modified_at": "2020-02-26T11:27:13.750Z",
+      "created_at": "2021-05-12T07:17:31.258Z",
+      "description": "Complaint 20",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "pollution"
+      ]
+    },
+    {
+      "_id": "94363453-32bd-450a-b11d-1f6b449af6e8",
+      "place": "movie theater",
+      "at_moment": false,
+      "datetime": "2022-06-01T09:26:05.669Z",
+      "modified_at": "2020-11-06T15:32:45.508Z",
+      "created_at": "2022-06-21T16:46:29.918Z",
+      "description": "Complaint 21",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "security"
+      ]
+    },
+    {
+      "_id": "35277e98-9ed1-4138-beb7-5a589b4820d1",
+      "place": "beach",
+      "at_moment": true,
+      "datetime": "2022-11-25T10:21:37.993Z",
+      "modified_at": "2020-09-17T09:49:24.530Z",
+      "created_at": "2022-12-04T02:07:20.988Z",
+      "description": "Complaint 22",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "security"
+      ]
+    },
+    {
+      "_id": "d83548f2-469f-4c50-bc7c-79bb9535becb",
+      "place": "movie theater",
+      "at_moment": true,
+      "datetime": "2020-07-28T05:10:50.456Z",
+      "modified_at": "2021-10-05T12:13:14.627Z",
+      "created_at": "2022-03-02T06:04:09.771Z",
+      "description": "Complaint 23",
+      "situation": [
+        "in progress"
+      ],
+      "type": [
+        "pollution"
+      ]
+    },
+    {
+      "_id": "6537f237-3d6d-430e-865a-4e6cf1b5a3a9",
+      "place": "restaurant",
+      "at_moment": false,
+      "datetime": "2021-10-12T10:51:09.440Z",
+      "modified_at": "2021-07-05T22:08:53.932Z",
+      "created_at": "2022-03-26T06:54:29.172Z",
+      "description": "Complaint 24",
       "situation": [
         "in progress"
       ],
@@ -511,12 +361,162 @@
       ]
     },
     {
-      "_id": "da8b2872-4e5d-4ea0-9f76-3a5e7a906cce",
+      "_id": "8212969b-4f4d-4909-ab89-49ec221ac072",
+      "place": "shopping mall",
+      "at_moment": false,
+      "datetime": "2023-02-25T02:26:14.601Z",
+      "modified_at": "2020-08-12T19:29:23.600Z",
+      "created_at": "2020-07-13T03:57:10.728Z",
+      "description": "Complaint 25",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "other"
+      ]
+    },
+    {
+      "_id": "93def272-618c-4ccc-99eb-0bcc7ee5ba61",
       "place": "park",
       "at_moment": false,
-      "datetime": "2021-07-10T00:31:00.059Z",
-      "modified_at": "2022-04-26T06:24:22.754Z",
-      "created_at": "2020-09-11T19:45:47.764Z",
+      "datetime": "2020-12-15T17:40:20.400Z",
+      "modified_at": "2021-07-01T17:21:37.175Z",
+      "created_at": "2021-08-18T20:51:14.871Z",
+      "description": "Complaint 26",
+      "situation": [
+        "in progress"
+      ],
+      "type": [
+        "security"
+      ]
+    },
+    {
+      "_id": "ffc947cf-ac1c-49a1-aa70-c9d6c9a834b6",
+      "place": "movie theater",
+      "at_moment": false,
+      "datetime": "2022-12-27T13:39:29.966Z",
+      "modified_at": "2020-11-15T05:28:04.865Z",
+      "created_at": "2020-06-05T19:31:41.684Z",
+      "description": "Complaint 27",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "security"
+      ]
+    },
+    {
+      "_id": "a1a4e0af-1f94-4f5d-8ce4-3882f62e8738",
+      "place": "restaurant",
+      "at_moment": false,
+      "datetime": "2021-09-06T15:30:16.501Z",
+      "modified_at": "2022-08-04T05:15:49.797Z",
+      "created_at": "2020-07-25T16:57:46.189Z",
+      "description": "Complaint 28",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "pollution"
+      ]
+    },
+    {
+      "_id": "5f8de542-ca22-426b-944f-ffc27ae82c3b",
+      "place": "movie theater",
+      "at_moment": true,
+      "datetime": "2020-08-24T02:08:23.194Z",
+      "modified_at": "2022-03-20T00:34:39.028Z",
+      "created_at": "2022-02-24T08:28:57.151Z",
+      "description": "Complaint 29",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "infrastructure"
+      ]
+    },
+    {
+      "_id": "123381a2-098c-4929-a21c-bfddf9e723c0",
+      "place": "park",
+      "at_moment": false,
+      "datetime": "2021-02-21T04:20:52.640Z",
+      "modified_at": "2021-06-12T07:29:01.939Z",
+      "created_at": "2021-09-21T07:08:38.048Z",
+      "description": "Complaint 30",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "pollution"
+      ]
+    },
+    {
+      "_id": "238a874b-4c2b-492b-9d65-aceb5ee8444b",
+      "place": "movie theater",
+      "at_moment": true,
+      "datetime": "2020-11-07T14:28:26.048Z",
+      "modified_at": "2021-06-12T21:50:28.083Z",
+      "created_at": "2022-06-17T02:51:25.195Z",
+      "description": "Complaint 31",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "noise"
+      ]
+    },
+    {
+      "_id": "07a5a357-f084-49dd-84f3-0ac461789e99",
+      "place": "restaurant",
+      "at_moment": true,
+      "datetime": "2022-05-21T14:43:29.967Z",
+      "modified_at": "2023-01-23T23:11:59.262Z",
+      "created_at": "2021-11-19T20:32:31.879Z",
+      "description": "Complaint 32",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "pollution"
+      ]
+    },
+    {
+      "_id": "1837166b-dda5-481d-b32e-515bbefd98ff",
+      "place": "shopping mall",
+      "at_moment": false,
+      "datetime": "2021-06-11T22:27:02.760Z",
+      "modified_at": "2020-10-29T14:10:57.015Z",
+      "created_at": "2021-10-31T15:39:31.914Z",
+      "description": "Complaint 33",
+      "situation": [
+        "unsolved"
+      ],
+      "type": [
+        "other"
+      ]
+    },
+    {
+      "_id": "e3dcb25a-46bb-451f-9fa1-51e2900ee9ce",
+      "place": "park",
+      "at_moment": true,
+      "datetime": "2022-08-19T10:17:40.756Z",
+      "modified_at": "2021-02-23T15:57:30.784Z",
+      "created_at": "2020-09-28T02:48:19.449Z",
+      "description": "Complaint 34",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "pollution"
+      ]
+    },
+    {
+      "_id": "6f3e2a25-7bb5-4c22-9c35-feef5e101754",
+      "place": "movie theater",
+      "at_moment": true,
+      "datetime": "2020-07-06T13:40:26.750Z",
+      "modified_at": "2022-08-17T20:53:06.328Z",
+      "created_at": "2021-12-31T05:20:58.091Z",
       "description": "Complaint 35",
       "situation": [
         "in progress"
@@ -526,58 +526,28 @@
       ]
     },
     {
-      "_id": "b388544d-0332-49b9-a4a2-938bd2a0cb7a",
-      "place": "park",
+      "_id": "42d81c34-5994-44fb-9c65-a76a2a5f0139",
+      "place": "shopping mall",
       "at_moment": false,
-      "datetime": "2022-07-02T21:06:25.674Z",
-      "modified_at": "2021-03-05T10:03:57.745Z",
-      "created_at": "2020-07-04T16:12:12.117Z",
+      "datetime": "2021-10-05T08:25:15.192Z",
+      "modified_at": "2022-06-24T11:54:52.192Z",
+      "created_at": "2021-09-15T15:57:21.046Z",
       "description": "Complaint 36",
-      "situation": [
-        "solved"
-      ],
-      "type": [
-        "infrastructure"
-      ]
-    },
-    {
-      "_id": "c26dcb50-fde5-4d51-ab03-ecf263167179",
-      "place": "park",
-      "at_moment": false,
-      "datetime": "2022-11-25T18:51:35.448Z",
-      "modified_at": "2021-05-24T21:37:27.835Z",
-      "created_at": "2022-08-05T00:01:21.237Z",
-      "description": "Complaint 37",
       "situation": [
         "unsolved"
       ],
       "type": [
-        "noise"
+        "security"
       ]
     },
     {
-      "_id": "985c4f81-5bf7-4c21-84e4-ffc01ea853e9",
+      "_id": "54d5e897-8948-477c-9f57-e8ba4fc7c297",
       "place": "restaurant",
-      "at_moment": true,
-      "datetime": "2022-05-07T17:50:53.329Z",
-      "modified_at": "2022-01-14T23:53:39.561Z",
-      "created_at": "2022-10-27T21:13:42.975Z",
-      "description": "Complaint 38",
-      "situation": [
-        "solved"
-      ],
-      "type": [
-        "noise"
-      ]
-    },
-    {
-      "_id": "e9b6703e-8907-4607-80a0-94032b203e2e",
-      "place": "beach",
-      "at_moment": true,
-      "datetime": "2022-10-02T01:27:46.508Z",
-      "modified_at": "2022-08-29T21:08:12.291Z",
-      "created_at": "2020-03-15T12:29:51.400Z",
-      "description": "Complaint 39",
+      "at_moment": false,
+      "datetime": "2020-09-05T03:07:50.060Z",
+      "modified_at": "2021-12-11T11:47:31.507Z",
+      "created_at": "2020-12-18T23:18:08.517Z",
+      "description": "Complaint 37",
       "situation": [
         "solved"
       ],
@@ -586,43 +556,133 @@
       ]
     },
     {
-      "_id": "28d2840c-89b8-4673-ba0c-7eb41a4087eb",
+      "_id": "9892f106-7c34-4aa1-915b-59f3196557c6",
       "place": "movie theater",
       "at_moment": true,
-      "datetime": "2021-01-15T00:29:01.883Z",
-      "modified_at": "2020-10-31T15:32:38.595Z",
-      "created_at": "2023-01-30T14:49:27.727Z",
-      "description": "Complaint 40",
-      "situation": [
-        "unsolved"
-      ],
-      "type": [
-        "security"
-      ]
-    },
-    {
-      "_id": "92fc6f5f-0aee-44c4-9fb9-6c36678b905f",
-      "place": "movie theater",
-      "at_moment": true,
-      "datetime": "2023-02-24T08:36:13.139Z",
-      "modified_at": "2020-01-24T00:50:47.262Z",
-      "created_at": "2022-06-25T08:48:29.017Z",
-      "description": "Complaint 41",
+      "datetime": "2020-04-14T06:42:53.343Z",
+      "modified_at": "2021-06-12T07:06:28.192Z",
+      "created_at": "2020-10-14T03:12:05.914Z",
+      "description": "Complaint 38",
       "situation": [
         "in progress"
       ],
       "type": [
+        "other"
+      ]
+    },
+    {
+      "_id": "a7d7d3a4-0ec1-4318-a8d9-f95df2ac8d9b",
+      "place": "park",
+      "at_moment": false,
+      "datetime": "2021-11-21T13:44:04.464Z",
+      "modified_at": "2022-08-18T22:19:01.631Z",
+      "created_at": "2023-01-29T00:59:52.344Z",
+      "description": "Complaint 39",
+      "situation": [
+        "solved"
+      ],
+      "type": [
         "security"
       ]
     },
     {
-      "_id": "53fbb579-2a4e-4af6-911d-f655ff5c7b00",
-      "place": "beach",
+      "_id": "73a8de26-d784-4d76-ab0d-77273a0b87fb",
+      "place": "restaurant",
       "at_moment": false,
-      "datetime": "2020-06-02T17:02:33.265Z",
-      "modified_at": "2022-11-15T17:59:56.639Z",
-      "created_at": "2021-04-11T19:51:28.890Z",
+      "datetime": "2020-02-03T01:26:58.518Z",
+      "modified_at": "2020-09-19T00:39:58.353Z",
+      "created_at": "2021-04-29T08:16:10.905Z",
+      "description": "Complaint 40",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "noise"
+      ]
+    },
+    {
+      "_id": "b54d82b6-8120-493f-914e-71c9406e5988",
+      "place": "park",
+      "at_moment": true,
+      "datetime": "2022-12-03T20:06:20.927Z",
+      "modified_at": "2020-08-05T20:07:01.124Z",
+      "created_at": "2023-02-22T10:56:19.326Z",
+      "description": "Complaint 41",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "noise"
+      ]
+    },
+    {
+      "_id": "53b2b431-c5ec-4b1e-a23a-ebdeb467cc87",
+      "place": "beach",
+      "at_moment": true,
+      "datetime": "2022-01-25T09:09:53.208Z",
+      "modified_at": "2022-12-05T22:45:52.988Z",
+      "created_at": "2020-08-29T09:18:12.947Z",
       "description": "Complaint 42",
+      "situation": [
+        "in progress"
+      ],
+      "type": [
+        "infrastructure"
+      ]
+    },
+    {
+      "_id": "5d0ab60a-42b5-4262-8d41-8fd211a7a22a",
+      "place": "park",
+      "at_moment": true,
+      "datetime": "2021-11-06T19:12:06.092Z",
+      "modified_at": "2020-04-17T16:55:42.730Z",
+      "created_at": "2022-08-16T16:21:58.505Z",
+      "description": "Complaint 43",
+      "situation": [
+        "in progress"
+      ],
+      "type": [
+        "noise"
+      ]
+    },
+    {
+      "_id": "2de23367-f82a-4b43-8980-9eb55ce6a561",
+      "place": "shopping mall",
+      "at_moment": false,
+      "datetime": "2020-03-02T07:15:52.642Z",
+      "modified_at": "2022-03-12T06:26:40.869Z",
+      "created_at": "2021-07-25T11:33:10.081Z",
+      "description": "Complaint 44",
+      "situation": [
+        "solved"
+      ],
+      "type": [
+        "pollution"
+      ]
+    },
+    {
+      "_id": "ccbe5294-1381-4d3d-a901-969ceffd96d9",
+      "place": "movie theater",
+      "at_moment": true,
+      "datetime": "2021-07-12T14:15:29.969Z",
+      "modified_at": "2021-10-16T11:01:21.828Z",
+      "created_at": "2020-05-10T13:55:35.490Z",
+      "description": "Complaint 45",
+      "situation": [
+        "in progress"
+      ],
+      "type": [
+        "pollution"
+      ]
+    },
+    {
+      "_id": "fe1508ac-7292-4f24-a677-6436e9ac7efc",
+      "place": "park",
+      "at_moment": true,
+      "datetime": "2022-08-19T02:58:52.070Z",
+      "modified_at": "2022-09-18T04:11:46.468Z",
+      "created_at": "2020-03-31T07:04:00.957Z",
+      "description": "Complaint 46",
       "situation": [
         "unsolved"
       ],
@@ -631,28 +691,28 @@
       ]
     },
     {
-      "_id": "b70fdfbf-ae3e-4b49-a052-f2c09749a0fe",
-      "place": "movie theater",
+      "_id": "a346108e-6dc3-4dc6-9945-6830933617cf",
+      "place": "restaurant",
       "at_moment": false,
-      "datetime": "2020-05-26T12:11:45.143Z",
-      "modified_at": "2022-05-06T08:41:10.899Z",
-      "created_at": "2020-09-24T12:29:59.892Z",
-      "description": "Complaint 43",
+      "datetime": "2022-06-09T09:37:58.683Z",
+      "modified_at": "2020-05-24T11:24:20.788Z",
+      "created_at": "2020-07-26T19:04:18.257Z",
+      "description": "Complaint 47",
       "situation": [
-        "solved"
+        "unsolved"
       ],
       "type": [
-        "infrastructure"
+        "noise"
       ]
     },
     {
-      "_id": "4d8362b5-e58e-4ad7-afdc-96262da0b333",
-      "place": "restaurant",
-      "at_moment": true,
-      "datetime": "2020-10-06T10:02:07.561Z",
-      "modified_at": "2020-10-11T09:03:41.407Z",
-      "created_at": "2022-10-25T23:55:12.881Z",
-      "description": "Complaint 44",
+      "_id": "e0fc1813-2060-4b7c-ad85-44abbe1e349a",
+      "place": "beach",
+      "at_moment": false,
+      "datetime": "2020-09-13T19:56:35.471Z",
+      "modified_at": "2020-08-05T02:21:28.822Z",
+      "created_at": "2022-01-28T18:59:16.517Z",
+      "description": "Complaint 48",
       "situation": [
         "in progress"
       ],
@@ -661,93 +721,33 @@
       ]
     },
     {
-      "_id": "13f36a84-1ceb-4806-b7b1-a2c4132fe7d4",
-      "place": "park",
-      "at_moment": false,
-      "datetime": "2021-11-22T03:34:51.973Z",
-      "modified_at": "2021-12-30T04:02:35.480Z",
-      "created_at": "2021-02-03T19:38:48.498Z",
-      "description": "Complaint 45",
-      "situation": [
-        "unsolved"
-      ],
-      "type": [
-        "pollution"
-      ]
-    },
-    {
-      "_id": "fc1fe676-bdc1-4381-8db7-31434f0974b1",
-      "place": "park",
-      "at_moment": false,
-      "datetime": "2020-03-30T04:23:07.364Z",
-      "modified_at": "2020-02-12T12:59:23.409Z",
-      "created_at": "2023-02-11T05:29:46.027Z",
-      "description": "Complaint 46",
-      "situation": [
-        "unsolved"
-      ],
-      "type": [
-        "noise"
-      ]
-    },
-    {
-      "_id": "b95cef9e-3444-4077-beff-4ef2ced6bad2",
+      "_id": "088e56a0-0bec-4ff3-a431-9e64634880ad",
       "place": "movie theater",
-      "at_moment": false,
-      "datetime": "2021-06-29T13:36:40.983Z",
-      "modified_at": "2020-11-16T01:09:39.985Z",
-      "created_at": "2021-02-06T20:41:24.506Z",
-      "description": "Complaint 47",
-      "situation": [
-        "solved"
-      ],
-      "type": [
-        "noise"
-      ]
-    },
-    {
-      "_id": "d6963ab6-a18b-42b4-b3c0-4f65905d8383",
-      "place": "park",
-      "at_moment": false,
-      "datetime": "2020-08-29T03:04:18.239Z",
-      "modified_at": "2022-08-07T12:47:13.533Z",
-      "created_at": "2023-02-01T08:48:03.560Z",
-      "description": "Complaint 48",
-      "situation": [
-        "unsolved"
-      ],
-      "type": [
-        "security"
-      ]
-    },
-    {
-      "_id": "99552933-3c42-4337-913b-79a7e4f115d4",
-      "place": "shopping mall",
-      "at_moment": false,
-      "datetime": "2022-03-21T02:17:07.588Z",
-      "modified_at": "2021-11-14T10:53:15.772Z",
-      "created_at": "2022-03-04T16:58:01.203Z",
+      "at_moment": true,
+      "datetime": "2022-04-11T03:45:44.231Z",
+      "modified_at": "2022-09-11T23:22:48.060Z",
+      "created_at": "2022-04-27T05:10:33.698Z",
       "description": "Complaint 49",
       "situation": [
-        "unsolved"
+        "in progress"
       ],
       "type": [
-        "pollution"
+        "other"
       ]
     },
     {
-      "_id": "72dd547b-780f-45f2-b5e8-c79d4e5823d5",
-      "place": "shopping mall",
+      "_id": "49e2ebdf-6a44-49ff-887a-45f37b31b246",
+      "place": "movie theater",
       "at_moment": false,
-      "datetime": "2021-10-13T14:38:49.192Z",
-      "modified_at": "2020-04-21T15:25:37.110Z",
-      "created_at": "2020-09-23T19:54:12.814Z",
+      "datetime": "2022-10-20T05:54:04.475Z",
+      "modified_at": "2021-09-16T01:35:14.345Z",
+      "created_at": "2022-08-01T19:53:49.454Z",
       "description": "Complaint 50",
       "situation": [
         "unsolved"
       ],
       "type": [
-        "pollution"
+        "other"
       ]
     }
   ]
