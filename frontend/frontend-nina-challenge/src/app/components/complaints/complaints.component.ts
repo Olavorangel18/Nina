@@ -10,7 +10,15 @@ export class ComplaintsComponent {
   @Input() complaint: Complaints | undefined;
   constructor() {}
 
-
-  ngOnInit(): void {
+  formatDate(date: Date | undefined): string {
+    if(date){
+    let dataSplit = date.toString().split('-');
+    const day = dataSplit[2][0] + dataSplit[2][1]
+    const month = dataSplit[1]
+    const year = dataSplit[0]
+    
+    return `${day}/${month}/${year}`;
+    }
+    return '';
   }
 }
