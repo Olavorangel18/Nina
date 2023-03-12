@@ -1,5 +1,8 @@
 <div style="display: flex;flex-direction: column; margin: 10px 10px 30px 10px;box-shadow: 0px 4px 0px #658BC1;">
-    <div style="padding-left:10px;color: #4A6370;font-style: normal;font-weight: 500;font-size: 10px;letter-spacing: 0.015em;background: #E8E8E8;">COMPLAINT</div>
+    <div style="display: flex; justify-content: space-between; padding-left:10px;color: #4A6370;font-style: normal;font-weight: 500;font-size: 10px;letter-spacing: 0.015em;background: #E8E8E8;">
+        <div>COMPLAINT</div>
+        <div style="margin-right: 10px;">{{complaint?._id}}</div>
+    </div>
     <div style="background: #ffffff; display: flex; padding-bottom: 20px;">
         <div style="width: 90%;">
             <h4 style="margin: 10px; font-size: 20px; font-weight: 500; letter-spacing: 0.015em;">{{complaint?.description}}</h4>
@@ -27,9 +30,19 @@
                     </svg>                        
                 </div>
                 <div>
-                    <h5 style="margin: 0;font-size: 15px; font-weight: 500; line-height: 150%;letter-spacing: 0.015em; color: #4a6370;">Update Date</h5>
-                   <h6 style="margin: 0;font-size: 10px; font-weight: 500; line-height: 150%;letter-spacing: 0.015em; color: #4a6370;">{{formatDate(complaint?.modified_at)}}</h6>
+                    <h5 style="margin: 0;font-size: 15px; font-weight: 500; line-height: 150%;letter-spacing: 0.015em; color: #4a6370;">Datetime</h5>
+                   <h6 style="margin: 0;font-size: 10px; font-weight: 500; line-height: 150%;letter-spacing: 0.015em; color: #4a6370;">{{formatDate(complaint?.datetime)}}</h6>
                 </div>
+            </div>
+            <div style="display: flex;margin:10px 10px 0px 10px;">
+                <div>
+                   <h6 style="margin: 0px 5px;font-size: 10px; font-weight: 500; line-height: 150%;letter-spacing: 0.015em; color: #bab7b7;">Updated Date {{formatDate(complaint?.modified_at)}}</h6>
+                </div>
+            </div>
+        </div>
+        <div style="display: flex;margin: 10px;">
+            <div>
+               <h5 style="align-items: flex-end; margin: 0;font-size: 15px; font-weight: 500; line-height: 150%;letter-spacing: 0.015em; color: #bab7b7;">Created date {{formatDate(complaint?.created_at)}}</h5>
             </div>
         </div>
         <div style="display: flex; align-items: flex-end; justify-content: end;">
