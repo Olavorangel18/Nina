@@ -1,15 +1,11 @@
 # Nina Challenge
 
-Quando eu estava realizando o desafio técnico para o processo seletivo, meu primeiro passo foi entender qual o problema que era necessário ser resolvido e quais as ferramentas eu iria precisar para chegar ao fim do processo, com todos os requisitos cumpridos e no tempo proposto.
+During the technical challenge for the selection process, my initial focus was to fully grasp the problem that needed to be solved and identify the necessary tools to complete the task within the given timeframe and requirements.
 
-Foi nos dado um banco de dados fake, e a partir dele comecei a estudar o seu conteúdo para entender quais as informações que precisaria ser mostradas e a melhor forma de fazer isso.
+To achieve this, I began by examining a mock database and studying its contents to determine the essential information that needed to be displayed and the optimal approach to achieve this. Once I identified that the task involved dealing with "Complaints", I conducted thorough research on the internet to learn from existing web application implementations that handled similar scenarios, using them as a reference for developing my solution.
 
-Por conta disso, ao entender que estavamos falando sobre "Complaint", pesquisei na internet implementações de aplicações web que comportam essas soluções, e me baseei nelas para ter um norte de como prosseguir com o desenvolvimento.
+After the research phase, I created a swift prototype using Figma to visualize my concepts and refine the design for an efficient and practical implementation. Once the design was finalized, I moved on to develop the code. While I encountered some challenges in mapping the state of certain components and establishing their information connections, I effectively addressed these issues by utilizing the RxJS library.
 
-Depois dessa etapa de pesquisa, fiz um prototipo rápido no figma para ilustrar algumas das ideias e pensar em um design que seria fácil de implementar no tempo proposto.
-
-Quando essa parte de concepção foi finalizada, partimos para o desáfio de código. De forma geral, as coisas andaram bem, tive algum problema para conseguir fazer o mapeamento de estados de alguns componentes e a conexão de informação entre eles. Porém, com a biblioteca de RxJS consegui resolver todas essas adversidades.
-
-Segui uma arquitetura de componentização, em que teriamos uma pagina a "Complaint Page", que receberia cada um desses componentes a fim de no final juntar tudo e materializar nossa solução. Além disso, foi criado model e serviços para evitar a poluição de código e facilitar o processo de desenvolvimento.
+To streamline the development process, I utilized a componentization architecture that incorporated a "Complaint Page" that would receive each component and assemble them into a cohesive and functional solution. Additionally, I created models and services to minimize code clutter and simplify the development process.
 
 
