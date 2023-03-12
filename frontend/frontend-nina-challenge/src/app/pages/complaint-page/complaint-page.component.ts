@@ -93,7 +93,6 @@ export class ComplaintPageComponent {
     const dialogRef = this.dialog.open(DialogContentFilter, {
       data: {filters: this.filters}});
     dialogRef.afterClosed().subscribe(result => {
-      console.log(result)
       this.getComplaintsFilter(result)
     });
   }
