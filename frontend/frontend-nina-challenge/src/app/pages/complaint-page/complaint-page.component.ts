@@ -5,7 +5,7 @@ import {MatSnackBar} from '@angular/material/snack-bar';
 import {MatDialog, MAT_DIALOG_DATA, MatDialogRef} from '@angular/material/dialog';
 import { FormControl} from '@angular/forms';
 import { webSocket } from 'rxjs/webSocket';
-
+import { distinctUntilChanged } from 'rxjs';
 
 @Component({
   selector: 'app-complaint-page',
@@ -37,6 +37,7 @@ export class ComplaintPageComponent {
         console.log('WebSocket connection closed.');
       }
     );
+
   }
 
   getComplaints() {
@@ -97,17 +98,15 @@ export class ComplaintPageComponent {
 
   openSnackBar(message: string, action: string) {
     this._snackBar.open(message, action, {
-      duration: 3000,
+      duration: 5000,
     });
   }
 
   openDialog() {
     const dialogRef = this.dialog.open(DialogContentFilter, {
-      data: {filters: this.filters}});
-    dialogRef.afterClosed().subscribe(result => {
-      if(result) this.getComplaintsFilter(result)
-    });
-  }
+      data: {filters: this.filters,
+             getComplaintsFilter: this.getComplaintsFilter.bind(this)}});
+    }
 }
 
 @Component({
@@ -122,6 +121,13 @@ export class DialogContentFilter {
   place = new FormControl('');
   type = new FormControl('');  
   active = new FormControl('');  
+  
+  ngOnInit() {
+    this.controlFilters(this.place)
+    this.controlFilters(this.type)
+    this.controlFilters(this.active)
+  }
+  
   on(){
     while(this.data.filters.length > 0) {
       this.data.filters.pop();
@@ -130,5 +136,19 @@ export class DialogContentFilter {
    if(this.type.value) this.data.filters.push(`type=${this.type.value}`)
    if(this.active.value) this.data.filters.push(`at_moment=${this.active.value}`)
    else this.data.filters.push(`at_moment=false`)
+   console.log(this.data.filters)
   }
+
+  controlFilters(control: FormControl){
+      control.valueChanges
+        .pipe(
+          distinctUntilChanged(), // only emit when the value changes
+        )
+        .subscribe(value => {
+          this.on()
+          this.data.getComplaintsFilter(this.data.filters)
+        });
+  }
+
+  
 }
