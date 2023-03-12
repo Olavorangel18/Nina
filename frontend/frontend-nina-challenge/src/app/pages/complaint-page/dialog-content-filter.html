@@ -1,0 +1,30 @@
+<form>
+    <div style="width: 80vw;">
+        <p style="margin: 15px;">Filter by type</p>
+        <mat-radio-group
+        [formControl]="type"
+        aria-label="Filter by type">
+            <mat-radio-button value="infrastructure">infrastructure</mat-radio-button>
+            <mat-radio-button value="pollution">pollution</mat-radio-button>
+            <mat-radio-button value="security">security</mat-radio-button>
+            <mat-radio-button value="noise">noise</mat-radio-button>
+            <mat-radio-button value="other">other</mat-radio-button>
+        </mat-radio-group>
+
+        <p style="margin: 15px;">Filter by place</p>
+        <mat-radio-group
+        [formControl]="place" 
+        aria-label="Filter by type">
+            <mat-radio-button value="beach">beach</mat-radio-button>
+            <mat-radio-button value="park">park</mat-radio-button>
+            <mat-radio-button value="shopping mall">shopping mall</mat-radio-button>
+            <mat-radio-button value="movie theater">movie theater</mat-radio-button>
+            <mat-radio-button value="restaurant">restaurant</mat-radio-button>
+        </mat-radio-group>
+    </div>
+    <p style="margin: 15px;">Filter by active?</p>
+    <mat-slide-toggle [formControl]="active" style="margin: 15px;"></mat-slide-toggle>
+      <div mat-dialog-actions align="end">
+        <button style="justify-content: flex-end; color:white; border:none; width: 70px; height: 30px; background: #658BC1;" (click)="on()" mat-button [mat-dialog-close]="data.filters">Filtrar</button>
+      </div>
+</form>
