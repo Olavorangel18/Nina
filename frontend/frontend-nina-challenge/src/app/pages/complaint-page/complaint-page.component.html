@@ -1,6 +1,6 @@
-<div style="width: 100%; display: flex; height: calc(100% - 20px); padding-top: 20px;;">
-    <div style="display: flex; gap: 30px; justify-content: center; width: 90%; flex-wrap: wrap;">
-        <div style="display: flex; flex-direction: column;">
+<div class="app-container">
+    <div class="app-content">
+        <div class="coluna">
             <app-card-header
               [type]="'Unsolved'"
               [lenght]="listaComplaintsUnsolved.length"
@@ -12,7 +12,7 @@
             ></app-list-complaints>
         </div>
 
-        <div style="display: flex; flex-direction: column;">
+        <div class="coluna">
           <app-card-header
             [type]="'In Progress'"
             [lenght]="listaComplaintsInProgress.length"
@@ -24,7 +24,7 @@
           ></app-list-complaints>
       </div>
 
-      <div style="display: flex; flex-direction: column;">
+      <div class="coluna">
         <app-card-header
           [type]="'Solved'"
           [lenght]="listaComplaintsSolved.length"
@@ -37,7 +37,7 @@
     </div>
 
      </div>
-     <div style="width: 10%; display: flex; justify-content: center">
+     <div class="filtro">
         <svg (click)="openDialog()" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="80" height="80" rx="40" fill="#3F3F3F"/>
             <path d="M57.5832 28.125H23.4165L37.0832 44.2858V55.4583L43.9165 58.875V44.2858L57.5832 28.125Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>

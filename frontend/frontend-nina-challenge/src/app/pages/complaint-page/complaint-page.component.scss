@@ -1,0 +1,25 @@
+.app-container{
+    width: 100%; 
+    display: flex; 
+    height: calc(100% - 20px);
+    padding-top: 20px;
+
+    .app-content{
+        display: flex; 
+        gap: 30px; 
+        justify-content: center;
+         width: 90%; 
+         flex-wrap: wrap;
+    }
+    .coluna {
+        display: flex; 
+        flex-direction: column;
+    }
+
+    .filtro{
+        width: 10%; 
+        display: flex; 
+        justify-content: center
+    }
+
+}
