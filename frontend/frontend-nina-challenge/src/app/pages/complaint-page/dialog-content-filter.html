@@ -2,9 +2,10 @@
     <div style="width: 80vw;">
         <p style="margin: 15px;">Filter by type</p>
         <mat-radio-group
+        color="primary"
         [formControl]="type"
         aria-label="Filter by type">
-            <mat-radio-button value="infrastructure">infrastructure</mat-radio-button>
+            <mat-radio-button  value="infrastructure">infrastructure</mat-radio-button>
             <mat-radio-button value="pollution">pollution</mat-radio-button>
             <mat-radio-button value="security">security</mat-radio-button>
             <mat-radio-button value="noise">noise</mat-radio-button>
@@ -13,6 +14,7 @@
 
         <p style="margin: 15px;">Filter by place</p>
         <mat-radio-group
+        color="primary"
         [formControl]="place" 
         aria-label="Filter by type">
             <mat-radio-button value="beach">beach</mat-radio-button>
