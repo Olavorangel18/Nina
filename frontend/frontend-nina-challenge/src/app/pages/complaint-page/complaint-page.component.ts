@@ -3,7 +3,9 @@ import { Complaints } from 'src/app/models/complaint/complaints.model';
 import { ComplaintsService } from 'src/app/services/complaints/complaints.service';
 import {MatSnackBar} from '@angular/material/snack-bar';
 import {MatDialog, MAT_DIALOG_DATA, MatDialogRef} from '@angular/material/dialog';
-import { FormControl, Validators } from '@angular/forms';
+import { FormControl} from '@angular/forms';
+import { webSocket } from 'rxjs/webSocket';
+
 
 @Component({
   selector: 'app-complaint-page',
@@ -19,12 +21,22 @@ export class ComplaintPageComponent {
 
   constructor(private complaintsService: ComplaintsService,
               private _snackBar: MatSnackBar,
-              private dialog: MatDialog) {
-    
-  }
+              private dialog: MatDialog,
+              ) {}
 
   ngOnInit() {
     this.getComplaints();
+    webSocket('ws://localhost:8080').subscribe(
+      (message) => {
+        this.openSnackBar(`Received message:${JSON.stringify(message)}`,'');
+      },
+      (error) => {
+        this.openSnackBar("Erro de conexão com o websocket",'');
+      },
+      () => {
+        console.log('WebSocket connection closed.');
+      }
+    );
   }
 
   getComplaints() {
