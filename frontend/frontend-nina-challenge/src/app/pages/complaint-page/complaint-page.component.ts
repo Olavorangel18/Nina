@@ -128,7 +128,7 @@ export class DialogContentFilter {
     this.controlFilters(this.active)
   }
   
-  on(){
+  filtrar(){
     while(this.data.filters.length > 0) {
       this.data.filters.pop();
   }
@@ -145,7 +145,7 @@ export class DialogContentFilter {
           distinctUntilChanged(), // only emit when the value changes
         )
         .subscribe(value => {
-          this.on()
+          this.filtrar()
           this.data.getComplaintsFilter(this.data.filters)
         });
   }
