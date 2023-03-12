@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ComplaintPageComponent } from './pages/complaint-page/complaint-page.component';
 import { CardHeaderComponent } from './components/card-header/card-header.component';
+import { ListComplaintsComponent } from './components/list-complaints/list-complaints.component';
+import { ComplaintsComponent } from './components/complaints/complaints.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ComplaintPageComponent,
-    CardHeaderComponent
+    CardHeaderComponent,
+    ListComplaintsComponent,
+    ComplaintsComponent
   ],
   imports: [
     BrowserModule,
