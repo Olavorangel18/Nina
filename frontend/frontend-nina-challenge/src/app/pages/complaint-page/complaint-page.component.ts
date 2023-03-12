@@ -43,7 +43,7 @@ export class ComplaintPageComponent {
     this.complaintsService.getComplaints().subscribe((response: Complaints[]) => {
       response.forEach(complaint => {
         this.listaComplaints.push(new Complaints(
-          complaint.id,
+          complaint._id,
           complaint.place,
           complaint.at_moment,
           complaint.datetime,
@@ -74,7 +74,7 @@ export class ComplaintPageComponent {
     this.complaintsService.getComplaintsFilters(filters).subscribe((response: Complaints[]) => {
       response.forEach(complaint => {
         this.listaComplaints.push(new Complaints(
-          complaint.id,
+          complaint._id,
           complaint.place,
           complaint.at_moment,
           complaint.datetime,
@@ -105,7 +105,7 @@ export class ComplaintPageComponent {
     const dialogRef = this.dialog.open(DialogContentFilter, {
       data: {filters: this.filters}});
     dialogRef.afterClosed().subscribe(result => {
-      this.getComplaintsFilter(result)
+      if(result) this.getComplaintsFilter(result)
     });
   }
 }

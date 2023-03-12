@@ -1,5 +1,5 @@
 export class Complaints {
-    id:string
+    _id:string
     place:string
     at_moment:boolean
     datetime:Date
@@ -9,8 +9,8 @@ export class Complaints {
     situation:string[]
     type:string
 
-    constructor(id:string, place:string, at_moment:boolean, datetime:Date, modified_at:Date, created_at:Date, description:string, situation:string[], type:string){
-        this.id = id
+    constructor(_id:string, place:string, at_moment:boolean, datetime:Date, modified_at:Date, created_at:Date, description:string, situation:string[], type:string){
+        this._id = _id
         this.place = place
         this.at_moment = at_moment
         this.datetime = datetime
