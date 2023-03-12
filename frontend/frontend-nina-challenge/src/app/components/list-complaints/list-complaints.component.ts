@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Complaints } from 'src/app/models/complaint/complaints.model';
 
 @Component({
   selector: 'app-list-complaints',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./list-complaints.component.scss']
 })
 export class ListComplaintsComponent {
-
+ @Input() listaComplaints: Complaints[] = [];
 }
