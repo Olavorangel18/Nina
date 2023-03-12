@@ -3,7 +3,7 @@
         <div style="display: flex; flex-direction: column;">
             <app-card-header
               [type]="'Unsolved'"
-              [lenght]="'1'"
+              [lenght]="listaComplaintsUnsolved.length"
               [color]="'#ED6161'"
               [boxShadow]="'inset 0px 4px 0px 0px #ED6161'"
             ></app-card-header>
@@ -15,7 +15,7 @@
         <div style="display: flex; flex-direction: column;">
           <app-card-header
             [type]="'In Progress'"
-            [lenght]="'1'"
+            [lenght]="listaComplaintsInProgress.length"
             [color]="'#1594E2'"
             [boxShadow]="'inset 0px 4px 0px #1594E2'"
         ></app-card-header>
@@ -27,7 +27,7 @@
       <div style="display: flex; flex-direction: column;">
         <app-card-header
           [type]="'Solved'"
-          [lenght]="'1'"
+          [lenght]="listaComplaintsSolved.length"
           [color]="'#05CE62'"
           [boxShadow]="'inset 0px 4px 0px #05CE62'"
         ></app-card-header>
