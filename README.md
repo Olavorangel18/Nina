@@ -4,7 +4,7 @@ Quando eu estava realizando o desafio técnico para o processo seletivo, meu pri
 
 Foi nos dado um banco de dados fake, e a partir dele comecei a estudar o seu conteúdo para entender quais as informações que precisaria ser mostradas e a melhor forma de fazer isso.
 
-Por conta disso, ao entender que estavamos falando sobre "Complaint", pesquisei na internet soluções de aplicações web que comportam essas soluções, e me baseei nelas para ter um norte de como prosseguir com o desenvolvimento.
+Por conta disso, ao entender que estavamos falando sobre "Complaint", pesquisei na internet implementações de aplicações web que comportam essas soluções, e me baseei nelas para ter um norte de como prosseguir com o desenvolvimento.
 
 Depois dessa etapa de pesquisa, fiz um prototipo rápido no figma para ilustrar algumas das ideias e pensar em um design que seria fácil de implementar no tempo proposto.
 
